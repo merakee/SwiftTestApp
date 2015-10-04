@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1137C10B1BC0F6CB00EDABCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C10A1BC0F6CB00EDABCC /* AppDelegate.swift */; };
-		1137C10D1BC0F6CB00EDABCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C10C1BC0F6CB00EDABCC /* ViewController.swift */; };
-		1137C1101BC0F6CB00EDABCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1137C10E1BC0F6CB00EDABCC /* Main.storyboard */; };
 		1137C1131BC0F6CB00EDABCC /* SwiftTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1137C1111BC0F6CB00EDABCC /* SwiftTestApp.xcdatamodeld */; };
 		1137C1151BC0F6CB00EDABCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1137C1141BC0F6CB00EDABCC /* Assets.xcassets */; };
-		1137C1181BC0F6CB00EDABCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1137C1161BC0F6CB00EDABCC /* LaunchScreen.storyboard */; };
 		1137C1231BC0F6CB00EDABCC /* SwiftTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C1221BC0F6CB00EDABCC /* SwiftTestAppTests.swift */; };
 		1137C12E1BC0F6CB00EDABCC /* SwiftTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C12D1BC0F6CB00EDABCC /* SwiftTestAppUITests.swift */; };
+		1137C1401BC0F78700EDABCC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C13F1BC0F78700EDABCC /* MainViewController.swift */; };
+		1137C1411BC0F78700EDABCC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C13F1BC0F78700EDABCC /* MainViewController.swift */; };
+		1137C1421BC0F78700EDABCC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C13F1BC0F78700EDABCC /* MainViewController.swift */; };
+		1137C1441BC0F7D900EDABCC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1137C1431BC0F7D900EDABCC /* Default-568h@2x.png */; };
+		1137C14A1BC0F86B00EDABCC /* UIColor+AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C1491BC0F86B00EDABCC /* UIColor+AppColor.swift */; };
+		1137C14B1BC0F86B00EDABCC /* UIColor+AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C1491BC0F86B00EDABCC /* UIColor+AppColor.swift */; };
+		1137C14C1BC0F86B00EDABCC /* UIColor+AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137C1491BC0F86B00EDABCC /* UIColor+AppColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +41,8 @@
 /* Begin PBXFileReference section */
 		1137C1071BC0F6CB00EDABCC /* SwiftTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1137C10A1BC0F6CB00EDABCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1137C10C1BC0F6CB00EDABCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1137C10F1BC0F6CB00EDABCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1137C1121BC0F6CB00EDABCC /* SwiftTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftTestApp.xcdatamodel; sourceTree = "<group>"; };
 		1137C1141BC0F6CB00EDABCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1137C1171BC0F6CB00EDABCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1137C1191BC0F6CB00EDABCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1137C11E1BC0F6CB00EDABCC /* SwiftTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1137C1221BC0F6CB00EDABCC /* SwiftTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		1137C1291BC0F6CB00EDABCC /* SwiftTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1137C12D1BC0F6CB00EDABCC /* SwiftTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestAppUITests.swift; sourceTree = "<group>"; };
 		1137C12F1BC0F6CB00EDABCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1137C13F1BC0F78700EDABCC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1137C1431BC0F7D900EDABCC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		1137C1491BC0F86B00EDABCC /* UIColor+AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,10 @@
 		1137C1091BC0F6CB00EDABCC /* SwiftTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				1137C10A1BC0F6CB00EDABCC /* AppDelegate.swift */,
-				1137C10C1BC0F6CB00EDABCC /* ViewController.swift */,
-				1137C10E1BC0F6CB00EDABCC /* Main.storyboard */,
-				1137C1141BC0F6CB00EDABCC /* Assets.xcassets */,
-				1137C1161BC0F6CB00EDABCC /* LaunchScreen.storyboard */,
-				1137C1191BC0F6CB00EDABCC /* Info.plist */,
-				1137C1111BC0F6CB00EDABCC /* SwiftTestApp.xcdatamodeld */,
+				1137C1481BC0F82900EDABCC /* Model */,
+				1137C1471BC0F80F00EDABCC /* Config */,
+				1137C1451BC0F7F800EDABCC /* Views */,
+				1137C13B1BC0F73700EDABCC /* Controllers */,
 			);
 			path = SwiftTestApp;
 			sourceTree = "<group>";
@@ -126,6 +127,57 @@
 				1137C12F1BC0F6CB00EDABCC /* Info.plist */,
 			);
 			path = SwiftTestAppUITests;
+			sourceTree = "<group>";
+		};
+		1137C13B1BC0F73700EDABCC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1137C13C1BC0F74700EDABCC /* ViewControllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1137C13C1BC0F74700EDABCC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1137C13F1BC0F78700EDABCC /* MainViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1137C1451BC0F7F800EDABCC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1137C1491BC0F86B00EDABCC /* UIColor+AppColor.swift */,
+				1137C1461BC0F7FF00EDABCC /* Assets */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1137C1461BC0F7FF00EDABCC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1137C1141BC0F6CB00EDABCC /* Assets.xcassets */,
+				1137C1431BC0F7D900EDABCC /* Default-568h@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1137C1471BC0F80F00EDABCC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1137C1191BC0F6CB00EDABCC /* Info.plist */,
+				1137C10A1BC0F6CB00EDABCC /* AppDelegate.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		1137C1481BC0F82900EDABCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1137C1111BC0F6CB00EDABCC /* SwiftTestApp.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1137C1181BC0F6CB00EDABCC /* LaunchScreen.storyboard in Resources */,
 				1137C1151BC0F6CB00EDABCC /* Assets.xcassets in Resources */,
-				1137C1101BC0F6CB00EDABCC /* Main.storyboard in Resources */,
+				1137C1441BC0F7D900EDABCC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1137C10D1BC0F6CB00EDABCC /* ViewController.swift in Sources */,
 				1137C10B1BC0F6CB00EDABCC /* AppDelegate.swift in Sources */,
+				1137C14A1BC0F86B00EDABCC /* UIColor+AppColor.swift in Sources */,
 				1137C1131BC0F6CB00EDABCC /* SwiftTestApp.xcdatamodeld in Sources */,
+				1137C1401BC0F78700EDABCC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1137C14B1BC0F86B00EDABCC /* UIColor+AppColor.swift in Sources */,
 				1137C1231BC0F6CB00EDABCC /* SwiftTestAppTests.swift in Sources */,
+				1137C1411BC0F78700EDABCC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1137C14C1BC0F86B00EDABCC /* UIColor+AppColor.swift in Sources */,
 				1137C12E1BC0F6CB00EDABCC /* SwiftTestAppUITests.swift in Sources */,
+				1137C1421BC0F78700EDABCC /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +350,6 @@
 			targetProxy = 1137C12A1BC0F6CB00EDABCC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1137C10E1BC0F6CB00EDABCC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1137C10F1BC0F6CB00EDABCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1137C1161BC0F6CB00EDABCC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1137C1171BC0F6CB00EDABCC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1137C1301BC0F6CB00EDABCC /* Debug */ = {
